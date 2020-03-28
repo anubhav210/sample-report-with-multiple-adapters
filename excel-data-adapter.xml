@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelDataAdapter class="net.sf.jasperreports.data.excel.ExcelDataAdapterImpl">
+   <name>excel-data-adapter</name>
+   <dataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="repositoryDataLocation">
+      <location>D:\anubhav-projects\jasper-workspace\Financial Sample.xlsx</location>
+   </dataFile>
+   <useFirstRowAsHeader>false</useFirstRowAsHeader>
+   <locale xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">en_IN</locale>
+   <timeZone xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">Asia/Calcutta</timeZone>
+   <datePattern>dd/MM/YYYY</datePattern>
+   <queryExecuterMode>false</queryExecuterMode>
+   <columnNames>Segment</columnNames>
+   <columnNames>Country</columnNames>
+   <columnNames>Product</columnNames>
+   <columnNames>Discount Band</columnNames>
+   <columnNames>Units Sold</columnNames>
+   <columnNames>Manufacturing Price</columnNames>
+   <columnNames>Sale Price</columnNames>
+   <columnNames>Gross Sales</columnNames>
+   <columnNames>Discounts</columnNames>
+   <columnNames>Sales</columnNames>
+   <columnNames>COGS</columnNames>
+   <columnNames>Profit</columnNames>
+   <columnNames>Date</columnNames>
+   <columnNames>Month Number</columnNames>
+   <columnNames>Month Name</columnNames>
+   <columnNames>Year</columnNames>
+   <columnIndexes>0</columnIndexes>
+   <columnIndexes>1</columnIndexes>
+   <columnIndexes>2</columnIndexes>
+   <columnIndexes>3</columnIndexes>
+   <columnIndexes>4</columnIndexes>
+   <columnIndexes>5</columnIndexes>
+   <columnIndexes>6</columnIndexes>
+   <columnIndexes>7</columnIndexes>
+   <columnIndexes>8</columnIndexes>
+   <columnIndexes>9</columnIndexes>
+   <columnIndexes>10</columnIndexes>
+   <columnIndexes>11</columnIndexes>
+   <columnIndexes>12</columnIndexes>
+   <columnIndexes>13</columnIndexes>
+   <columnIndexes>14</columnIndexes>
+   <columnIndexes>15</columnIndexes>
+   <sheetSelection />
+   <format>autodetect</format>
+</excelDataAdapter>

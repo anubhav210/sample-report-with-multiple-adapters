@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+   <name>jsonplaceholder</name>
+   <dataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="httpDataLocation">
+      <method>GET</method>
+      <url>https://jsonplaceholder.typicode.com/comments</url>
+      <username />
+      <password />
+      <urlParameter>
+         <name>postId</name>
+         <value>1</value>
+      </urlParameter>
+   </dataFile>
+   <language>json</language>
+   <useConnection>false</useConnection>
+   <timeZone xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">Asia/Calcutta</timeZone>
+   <locale xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">en_IN</locale>
+   <selectExpression />
+</jsonDataAdapter>

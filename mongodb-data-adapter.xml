@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MongoDbDataAdapter class="com.jaspersoft.mongodb.adapter.MongoDbDataAdapterImpl">
+   <name>New Data Adapter</name>
+   <mongoURI>mongodb://localhost:27017/</mongoURI>
+   <username />
+   <password />
+</MongoDbDataAdapter>
