@@ -8,6 +8,7 @@
 	<field name="Year" class="java.lang.String"/>
 	<field name="Product" class="java.lang.String"/>
 	<field name="Country" class="java.lang.String"/>
+	<field name="Date" class="java.util.Date"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
