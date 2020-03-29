@@ -2,12 +2,12 @@
 <excelDataAdapter class="net.sf.jasperreports.data.excel.ExcelDataAdapterImpl">
    <name>excel-data-adapter</name>
    <dataFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="repositoryDataLocation">
-      <location>D:\anubhav-projects\jasper-workspace\Financial Sample.xlsx</location>
+      <location>D:\anubhav-projects\jasper-workspace\sample-report-with-multiple-adapters\Financial Sample.xlsx</location>
    </dataFile>
-   <useFirstRowAsHeader>false</useFirstRowAsHeader>
+   <useFirstRowAsHeader>true</useFirstRowAsHeader>
    <locale xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">en_IN</locale>
    <timeZone xmlns:java="http://java.sun.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:java.lang.String">Asia/Calcutta</timeZone>
-   <datePattern>dd/MM/YYYY</datePattern>
+   <datePattern>MM-dd-yyyy</datePattern>
    <queryExecuterMode>false</queryExecuterMode>
    <columnNames>Segment</columnNames>
    <columnNames>Country</columnNames>
